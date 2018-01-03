@@ -1,0 +1,49 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans';
+}
+
+nav {
+	margin-top: 10px;
+	width: 100%;
+	position: fixed;
+}
+
+nav img {
+	text-align: center;
+}
+nav:first-child {
+	text-align: left;
+}
+nav:nth-child(3) {
+	text-align: right;
+}
+
+nav > div {
+	display: inline-block;
+
+}
+
+.projects-page {
+	background-image: url(./img/pokefave2.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px; 
+}
+
+.project-box {
+	display: flex;
+	flex-direction: column;
+}
+
+.proj-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.proj span {
+	display: none;
+}
