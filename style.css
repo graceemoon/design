@@ -50,14 +50,29 @@ a span:hover {
 	text-decoration: none;
 }
 
-
-
-
-
-
 .main-body {
 	margin-top: 50px;
 }
+
+
+.fa-tumblr-square {
+	font-size: 20px !important;
+	color: #35465c;
+	/*margin-left: 15px;*/
+}
+
+.fa-tumblr-square:hover {
+	color: orange;
+}
+
+
+
+
+
+
+
+
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 100px;
