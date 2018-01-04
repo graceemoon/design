@@ -5,6 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>sketchbook</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="node_modules/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Quicksand:300,400,500,700" rel="stylesheet">
 	<script src="https://use.fontawesome.com/65fe05c84e.js"></script>
 
@@ -19,10 +20,10 @@
 <body>
 
 
-<div class="container">
-	<!-- <div class="row"> -->
+<div class="container-fluid">
+	<div class="row">
 
-<div class="navbar navbar-inverse navbar-fixed-left">
+<div class="navbar navbar-inverse navbar-left col-md-2">
   <a class="navbar-brand" href="#"><img src="img/LOGO_sm100.png" alt="logo" height="20px"> graceemoon</a>
   <ul class="nav navbar-nav">
     <li><a href="#"><span> sketchbook </span></a></li>
@@ -32,22 +33,25 @@
   </ul>
 </div>
 	
-	<div class="col-md-6">
+	<div class="col-md-9">
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-		  <ol class="carousel-indicators">
+<!-- 		  <ol class="carousel-indicators">
 		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-		  </ol>
+		  </ol> -->
 		  <div class="carousel-inner">
 		    <div class="carousel-item active">
-		      <img class="d-block w-100" src="doodles/pariah.jpg" alt="pariah">
+		      <img class="" src="doodles/pariah.jpg" alt="pariah">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="doodles/freedom.jpg" alt="freedom">
+		      <img class="" src="doodles/freedom.jpg" alt="freedom">
 		    </div>
 		    <div class="carousel-item">
-		      <img class="d-block w-100" src="doodles/doughnut-hole.jpg" alt="doughnut hole">
+		      <img class="" src="doodles/doughnut-hole.jpg" alt="doughnut hole">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="img-fluid img-responsive center-block" src="doodles/lost-and-found.jpg" alt="lost and found">
 		    </div>
 		  </div>
 		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -61,7 +65,7 @@
 		</div>
 	</div>
 
-<!-- </div> -->
+</div>
 </div>	
 </body>
 </html>
