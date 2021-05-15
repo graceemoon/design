@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', Helvetica, Sans-Serif;
+	background-color: #fafafa;
 }
 
 body {
@@ -92,13 +93,13 @@ a span:hover {
 
 .carousel-control-next-icon:after
 {
-  content: '>';
+  content: '';
   font-size: 30px;
   color: orange;
 }
 
 .carousel-control-prev-icon:after {
-  content: '<';
+  content: '';
   font-size: 30px;
   color: orange;
 }
